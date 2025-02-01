@@ -6,12 +6,15 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Alex1911-Jiang</Authors>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/Alex1911-Jiang/AnimeTrace_Net_SDK</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Alex1911-Jiang/AnimeTrace_Net_SDK</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>AnimeTrace;animedb;ai.animedb.cn</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageIcon>icon.png</PackageIcon>
+    <Description>https://ai.animedb.cn/ 的非官方SDK</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
