@@ -31,3 +31,6 @@ Install-Package AnimeTrace_Net_SDK
     Console.WriteLine();
   }
 ```
+
+## 效果展示
+![微信截图_20250201214247](https://github.com/user-attachments/assets/03ac392a-5149-47e1-b9f2-c43bd0bbb54f)
