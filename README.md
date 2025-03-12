@@ -8,6 +8,7 @@ DotNet SDK FOR AnimeTrace.  AnimeTrace的.Net SDK。
 ## 如何安装
 
 1. 如果你使用Visual Studio，请在nuget中搜索AnimeTrace_Net_SDK并安装
+![nuget](https://github.com/user-attachments/assets/daeb5256-280c-4a68-9261-4df6fd8931eb)
 
 2. DotNet CLI
 ```shell
@@ -33,3 +34,6 @@ Install-Package AnimeTrace_Net_SDK
         Console.WriteLine();
     }
 ```
+
+## 效果展示
+![img](https://github.com/user-attachments/assets/03ac392a-5149-47e1-b9f2-c43bd0bbb54f)
