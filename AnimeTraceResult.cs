@@ -10,11 +10,14 @@ namespace AnimeTrace_Net_SDK
         [JsonProperty("data")]
         public AnimeTraceDatum[] Data { get; set; }
 
+        [JsonProperty("detail")]
+        public string Detail { get; set; }
+
         [JsonProperty("ai")]
         public bool Ai { get; set; }
 
-        [JsonProperty("new_code")]
-        public int NewCode { get; set; }
+        [JsonProperty("trace_id")]
+        public string TraceId { get; set; }
 
         public bool Success { get; set; }
 
